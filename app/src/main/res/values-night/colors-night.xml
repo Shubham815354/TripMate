@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme Colors - Dark Mode -->
+    <color name="colorPrimary">#123456</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#37474F</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Error Colors -->
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnError">#000000</color>
+
+    <!-- Background & Layout Colors -->
+    <color name="background_gradient">#1E1E1E</color>
+    <color name="fragment_background">#121212</color>
+    <color name="card_background">#2C2C2C</color>
+
+    <!-- Button Colors -->
+    <color name="button_secondary">#37474F</color>
+    <color name="logout_button_bg">#CF6679</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+
+    <!-- Custom Colors -->
+    <color name="fabulous_purple">#8E24AA</color>
+    <!-- Bottom Navigation Colors - Dark Mode -->
+    <color name="bottom_nav_icon_color">#B0B0B0</color>
+    <color name="bottom_nav_text_color">#B0B0B0</color>
+    <color name="bottom_nav_selected_color">#123456</color>
+</resources>

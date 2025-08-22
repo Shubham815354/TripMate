@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        app:tabIndicatorColor="?attr/colorOnSurface"
+        app:tabIndicatorFullWidth="false"
+        app:tabSelectedTextColor="?attr/colorOnSurface"
+        app:tabTextColor="?attr/colorOnSurfaceVariant"
+        app:tabIndicatorGravity="bottom"
+        app:tabIndicatorHeight="2dp"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabBackground="@android:color/transparent"
+        android:paddingHorizontal="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Next"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:paddingVertical="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        app:cornerRadius="24dp"
+        app:strokeColor="@android:color/white"
+        app:strokeWidth="2dp"
+        android:background="@drawable/fab_button_bg" />
+
+</LinearLayout>

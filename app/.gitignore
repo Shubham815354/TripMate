@@ -1,0 +1,13 @@
+# Ignore Google Services JSON (Firebase)
+app/google-services.json
+
+# Ignore local properties (contains API keys)
+local.properties
+
+# Ignore build and IDE files
+.gradle/
+.idea/
+*.iml
+build/
+captures/
+.externalNativeBuild/
